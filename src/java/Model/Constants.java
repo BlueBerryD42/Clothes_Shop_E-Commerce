@@ -11,7 +11,7 @@ package Model;
  */
 public class Constants {
 
-    public static String GOOGLE_CLIENT_ID = "ssssssss";
+    public static String GOOGLE_CLIENT_ID = "";//Your keys goes here
     public static String GOOGLE_CLIENT_SECRET = "";
     public static String GOOGLE_REDIRECT_URI = "http://localhost:8080/PRJ301-ToSubmit_V2/LoginGoogleController";
     public static String GOOGLE_LINK_GET_TOKEN = "https://accounts.google.com/o/oauth2/token";
