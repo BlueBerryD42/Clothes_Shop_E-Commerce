@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : August 5, 2024, 4:19:48 PM
+    Author     : ASUS
+*/
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #cb117a, #25dcfc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+.card {
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 16px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card-header {
+    background: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.card-body {
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+.card-body h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.card-body .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-danger {
+    background: #cb117a;
+    border: none;
+}
+.form-inline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form-inline .form-control {
+    margin-right: 10px;
+    width: 300px;
+}
+.table {
+    margin-top: 20px;
+}
+thead {
+    background-color: #343a40;
+    color: #fff;
+}
+.form-control[readonly] {
+    background-color: #e9ecef;
+}
+.card-footer {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    border-top: none;
+}
+
+
