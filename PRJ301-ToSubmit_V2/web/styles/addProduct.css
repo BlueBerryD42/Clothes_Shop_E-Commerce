@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : August 20, 2024, 9:58:19 AM
+    Author     : ASUS
+*/
+
+          html, body {
+            height: 100%;
+            background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .card-header {
+            background: #7a78e0;
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #4a4a4a;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .Choicefile {
+            display: inline-block;
+            background: #a18cd1;
+            border: none;
+            color: #fff;
+            width: 150px;
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .Choicefile:hover {
+            background-color: #8c72e6;
+        }
+
+        #thumbbox {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #thumbimage {
+            border-radius: 5px;
+            object-fit: cover;
+            background: white;
+            max-height: 200px;
+            max-width: 100%;
+        }
+
+        .btn-primary {
+            background-color: #7a78e0;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #6a68d0;
+        }
+
+        .btn-secondary {
+            border-radius: 5px;
+        }

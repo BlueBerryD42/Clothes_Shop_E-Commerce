@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/PRJ301-ToSubmit_V2">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DBCon" password="12345" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=NguyenQuanFashion" username="sa">
+    </Resource>
+</Context>

@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2024, 7:53:16 PM
+    Author     : Dell Latitude 7490
+*/
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.loginform {
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    width: 28%;
+    height: 70%;
+    box-shadow: 0 6px 3px rgba(0, 0, 0, 0.12), 0 6px 16px rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+}
+
+.loginheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn {
+    width: 64%;
+    height: 44px;
+}
+
+.error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.infomationform {
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.login-reset-btn {
+    width: 70%;
+    height: 44px;
+}
+
+.direct-btn {
+    justify-content: center;
+    align-items: center;
+}
+
+.recaptcha-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

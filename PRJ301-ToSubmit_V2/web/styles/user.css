@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2024, 11:01:59 AM
+    Author     : ASUS
+*/
+
+body {
+                background-color: #000;
+                color: #fff;
+            }
+            .card {
+                background-color: #111;
+                border: 1px solid #fff;
+            }
+            .card-header {
+                background-color: #222;
+                border-bottom: 1px solid #fff;
+                color: #fff;
+            }
+            .table th, .table td {
+                border: 1px solid #444;
+            }
+            .btn-danger {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #fff;
+            }
+            .btn-danger:hover {
+                background-color: #ccc;
+                color: #000;
+            }
